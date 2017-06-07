@@ -5,7 +5,7 @@ var config = {};
 config.BUCKET_SLUG = process.env.COSMIC_BUCKET;
 config.READ_KEY = process.env.COSMIC_READ_KEY;
 config.WRITE_KEY = process.env.COSMIC_WRITE_KEY;
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 5000)
 app.use(express.static(__dirname))
 var http = require('http').Server(app)
 // Route
